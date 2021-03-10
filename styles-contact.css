@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/jb_logo_bg.jpg)
 	   center center fixed no-repeat;
 	background-size: cover;
 }
@@ -69,9 +69,8 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	
 	text-align: center;
-	border: 4px dashed white;
 }
 
    
@@ -113,7 +112,6 @@ nav{
     font-size: 1.2em;
     width: 400px;
     margin: 0 auto;
-    border: dashed white;
     border-width: 3px 0;
     text-align: center;
     margin-top: 2em;
@@ -121,15 +119,17 @@ nav{
 
 nav li{
         display:inline
+       
 }
 
 nav a{
     display:inline-block;
     padding: 10 px;
+    
 }
 
 a{
-    color:orange;
+    color:darkgreen;
     text-decoration: none;
     font-weight: bold;
     }
