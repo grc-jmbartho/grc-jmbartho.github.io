@@ -76,7 +76,6 @@ html, body {
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed white;
 	text-align: center;
 }
 
@@ -101,10 +100,14 @@ h2 {
 
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		;
-	font-size: 1.2em;
+	font-size: 1.2em; 
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
     line-height: 1.6;
     color: #fff;
-}
+    border: 2px solid #545454;
+    border-radius: 5px; 
+    background-color: #545454;
+}}
     
     
 nav{
@@ -125,6 +128,7 @@ nav li{
 nav a{
     display:inline-block;
     padding: 10 px;
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
     
 }
 
@@ -132,8 +136,10 @@ a{
     color:darkgreen;
     text-decoration: none;
     font-weight: bold;
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
     }
 a:hover{
     color:black;
     background:white;
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
     }
