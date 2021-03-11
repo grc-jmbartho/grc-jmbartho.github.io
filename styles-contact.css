@@ -118,6 +118,7 @@ nav{
     border-width: 3px 0;
     text-align: center;
     margin-top: 2em;
+    color: white
 }
 
 nav li{
@@ -129,6 +130,7 @@ nav a{
     display:inline-block;
     padding: 10 px;
     font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    color: white
     
 }
 
@@ -139,7 +141,7 @@ a{
     font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
     }
 a:hover{
-    color:black;
-    background:white;
+    color:white
+    background:darkgreen
     font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
     }
